@@ -1,0 +1,23 @@
+.confirmation-box {
+  width: 30rem;
+  text-align: center;
+}
+
+.icon-complete {
+  width: 6rem;
+  margin: 0 auto;
+}
+
+.thank-you {
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #21092f;
+  margin: 3rem 0 1rem 0;
+}
+
+.notification {
+  font-size: 1.4rem;
+  color: #8e8593;
+  margin-bottom: 1rem;
+}

@@ -1,0 +1,133 @@
+.card-box {
+  color: white;
+}
+
+.card-front-box {
+  width: 40rem;
+  height: 22rem;
+  padding: 3rem;
+  margin-bottom: 3rem;
+  background-image: url(../images/bg-card-front.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card-front-info {
+  letter-spacing: 2px;
+}
+
+.card-logo {
+  margin-bottom: 5rem;
+}
+
+.card-number {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+.card-name-date {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card-back-box {
+  width: 40rem;
+  height: 22rem;
+  margin-left: 10rem;
+  background-image: url(../images/bg-card-back.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+
+.card-cvc {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 10rem;
+  left: 33rem;
+}
+
+@media (max-width: 768px) {
+  .card-front-box,
+  .card-back-box {
+    width: 42rem;
+    height: 23rem;
+  }
+
+  .card-cvc {
+    top: 10.5rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .card-front-box,
+  .card-back-box {
+    width: 35rem;
+    height: 20rem;
+  }
+
+  .card-front-box {
+    position: absolute;
+    top: 15rem;
+    z-index: 10;
+  }
+
+  .card-logo {
+    margin-bottom: 3rem;
+  }
+
+  .card-number {
+    font-size: 2rem;
+  }
+
+  .card-back-box {
+    margin-left: 5rem;
+    margin-bottom: 11rem;
+  }
+
+  .card-cvc {
+    top: 8.5rem;
+    left: 28rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .card-front-box,
+  .card-back-box {
+    width: 30rem;
+    height: 20rem;
+  }
+
+  .card-front-box {
+    top: 13rem;
+  }
+
+  .card-logo {
+    width: 7rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .card-number {
+    font-size: 1.6rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .card-back-box {
+    margin-left: 4rem;
+    margin-bottom: 6rem;
+  }
+
+  .card-name-date {
+    font-size: 1.1rem;
+  }
+
+  .card-cvc {
+    top: 7.2rem;
+    left: 24rem;
+  }
+}

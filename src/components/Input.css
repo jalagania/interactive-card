@@ -1,0 +1,95 @@
+.input-box {
+  width: 33rem;
+}
+
+.label-text {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #21092f;
+  margin-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+.warning-text {
+  font-size: 1.2rem;
+  color: #ff5252;
+  margin-top: 0.5rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  border: 1.5px solid #dedddf;
+  outline: none;
+}
+
+input:focus {
+  border: 1.5px solid #6448fe;
+}
+
+input::-webkit-inner-spin-button {
+  appearance: none;
+}
+
+input::placeholder {
+  letter-spacing: 1px;
+  color: #dedddf;
+}
+
+.input-date-cvc-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.input-date-box {
+  width: 65%;
+}
+
+.input-date-box input {
+  width: 43%;
+}
+
+.input-date-box input:first-of-type {
+  margin-right: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 1rem;
+  font-family: inherit;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+  color: white;
+  background-color: #21092f;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.2s;
+}
+
+button:active {
+  scale: 0.98;
+}
+
+.warning {
+  border: 1.5px solid #ff5252;
+}
+
+@media (max-width: 425px) {
+  .input-box {
+    width: 37rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .input-box {
+    width: 34rem;
+  }
+}
